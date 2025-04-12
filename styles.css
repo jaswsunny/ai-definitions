@@ -25,10 +25,13 @@ body {
 }
 
 .container {
-    position: relative;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: minmax(0, 800px) 280px;
+    gap: 2rem;
+    align-items: start;
 }
 
 .main-content {
@@ -36,10 +39,22 @@ body {
 }
 
 .sidebar {
-    position: fixed;
-    width: 280px;
-    left: calc(50% + 400px + 2rem);
+    position: sticky;
     top: 2rem;
+    align-self: start;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr;
+        max-width: 800px;
+    }
+    
+    .sidebar {
+        position: static;
+        width: 100%;
+    }
 }
 
 header {
