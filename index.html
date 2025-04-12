@@ -10,68 +10,55 @@
 </head>
 <body>
     <div class="container">
-        <div class="page-layout">
-            <main class="main-content">
-                <header>
-                    <h1>A history of definitions of powerful AI</h1>
-                    <div class="byline">Jasmine Sun, Updated April 11, 2025</div>
-                </header>
+        <main class="main-content">
+            <header>
+                <h1>A history of definitions of powerful AI</h1>
+                <div class="byline">Jasmine Sun, Updated April 11, 2025</div>
+            </header>
+            
+            <section class="introduction">
+                <p>I made this timeline as supporting research for this essay: <a href="https://jasmi.news/p/agi" target="_blank">AGI (disambiguation)</a>. Excerpted:</p>
                 
-                <section class="introduction">
-                    <p>I made this timeline as supporting research for this essay: <a href="https://jasmi.news/p/agi" target="_blank">AGI (disambiguation)</a>. Excerpted:</p>
+                <blockquote>
+                    <p>This is a timeline of how visions of AGI and powerful AI have shifted over the past ~75 years, from the fathers of computing to today's frontier labs.</p>
                     
-                    <blockquote>
-                        <p>This is a timeline of how visions of AGI and powerful AI have shifted over the past ~75 years, from the fathers of computing to today's frontier labs.</p>
-                        
-                        <p>On net, definitions have inched toward the measurable, practical, and achievable; emphasizing an AI's performance—especially vis-a-vis human benchmarks, on human jobs—over internal "consciousness" or "agency," recursive self-improvement, or the ability to generalize to any new task or environment.</p>
-                        
-                        <p>Ultimately, AGI is better understood through the lens of faith, field-building, and ingroup signaling than as a concrete technical milestone. AGI represents an ambition and an aspiration; a Schelling point, a shibboleth. The AGI-pilled share the belief that we will soon build machines more capable than ourselves—that humans won't retain our hegemony on intelligence for long. The specifics aren't important: it's a feeling of existential weight.</p>
-                    </blockquote>
-                </section>
+                    <p>On net, definitions have inched toward the measurable, practical, and achievable; emphasizing an AI's performance—especially vis-a-vis human benchmarks, on human jobs—over internal "consciousness" or "agency," recursive self-improvement, or the ability to generalize to any new task or environment.</p>
+                    
+                    <p>Ultimately, AGI is better understood through the lens of faith, field-building, and ingroup signaling than as a concrete technical milestone. AGI represents an ambition and an aspiration; a Schelling point, a shibboleth. The AGI-pilled share the belief that we will soon build machines more capable than ourselves—that humans won't retain our hegemony on intelligence for long. The specifics aren't important: it's a feeling of existential weight.</p>
+                </blockquote>
+            </section>
 
-                <p class="introduction">Please email jaswsunny at gmail dot com for suggestions or corrections.</p>
+            <p class="introduction">Please email jaswsunny at gmail dot com for suggestions or corrections.</p>
 
-                <section class="timeline">
-                    <!-- Timeline entries will be added here -->
-                </section>
-            </main>
+            <section class="timeline">
+                <!-- Timeline entries will be added here -->
+            </section>
+        </main>
 
-            <aside class="sidebar">
-                <div class="definition-types">
-                    <h2>Subtypes of definitions:</h2>
-                    <ul>
-                        <li>
-                            <span class="tag processes">Processes</span>
-                            Does AI think in "human-like" ways?
-                        </li>
-                        <li>
-                            <span class="tag generality">Generality</span>
-                            Can AI learn new tasks it hasn't seen?
-                        </li>
-                        <li>
-                            <span class="tag performance">Performance</span>
-                            Can AI complete various tasks?
-                        </li>
-                        <li>
-                            <span class="tag impacts">Impacts</span>
-                            Will the AI have a big impact on society?
-                        </li>
-                    </ul>
-                </div>
-            </aside>
-        </div>
+        <aside class="sidebar">
+            <div class="definition-types">
+                <h2>Subtypes of definitions:</h2>
+                <ul>
+                    <li>
+                        <span class="tag processes">Processes</span>
+                        Does AI think in "human-like" ways?
+                    </li>
+                    <li>
+                        <span class="tag generality">Generality</span>
+                        Can AI learn new tasks it hasn't seen?
+                    </li>
+                    <li>
+                        <span class="tag performance">Performance</span>
+                        Can AI complete various tasks?
+                    </li>
+                    <li>
+                        <span class="tag impacts">Impacts</span>
+                        Will the AI have a big impact on society?
+                    </li>
+                </ul>
+            </div>
+        </aside>
     </div>
     <script src="script.js"></script>
-    <script>
-        // Add this script to position the sidebar
-        document.addEventListener('DOMContentLoaded', function() {
-            const firstTimelineEntry = document.querySelector('.timeline-entry');
-            const sidebar = document.querySelector('.sidebar');
-            if (firstTimelineEntry && sidebar) {
-                const timelineTop = firstTimelineEntry.getBoundingClientRect().top;
-                sidebar.style.top = `${timelineTop}px`;
-            }
-        });
-    </script>
 </body>
 </html> 

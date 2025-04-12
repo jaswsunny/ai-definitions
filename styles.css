@@ -25,49 +25,36 @@ body {
 }
 
 .container {
-    position: relative;
-    max-width: 800px;
+    max-width: 1200px; /* Increased to accommodate sidebar */
     margin: 0 auto;
     padding: 2rem;
-    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: flex;
+    gap: 4rem;
 }
 
 .main-content {
-    width: 100%;
-}
-
-.page-layout {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 2rem;
-    position: relative;
+    flex: 1;
+    max-width: 800px;
 }
 
 .sidebar {
-    position: fixed;
     width: 280px;
-    left: calc(50% + 400px + 2rem);
-    top: calc(2rem + 3.5rem); /* container padding + header height + byline */
-}
-
-/* Add some responsive adjustments */
-@media (max-height: 800px) {
-    .sidebar {
-        position: absolute;
-    }
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
 }
 
 @media (max-width: 1200px) {
-    .page-layout {
+    .container {
         flex-direction: column;
+        max-width: 800px;
+        padding: 1rem;
     }
     
     .sidebar {
         position: static;
         width: 100%;
         margin-top: 2rem;
-        left: auto;
     }
 }
 
