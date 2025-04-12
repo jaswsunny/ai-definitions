@@ -16,7 +16,7 @@ const timelineData = [
         year: 1955,
         author: "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon",
         term: "artificial intelligence",
-        quote: "We propose that a 2 month, 10 man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves.",
+        quote: "We propose that a 2 month, 10 man study of <strong>artificial intelligence</strong> be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves.",
         source: {
             text: "Proposal for the Dartmouth Summer Research Project on AI",
             link: "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf"
@@ -28,7 +28,7 @@ const timelineData = [
         year: 1980,
         author: "John Searle",
         term: "strong AI",
-        quote: "According to strong AI, the computer is not merely a tool in the study of the mind; rather, the appropriately programmed computer really is a mind, in the sense that computers given the right programs can be literally said to understand and have other cognitive states.",
+        quote: "According to <strong>strong AI</strong>, the computer is not merely a tool in the study of the mind; rather, the appropriately programmed computer really is a mind, in the sense that computers given the right programs can be literally said to understand and have other cognitive states.",
         source: {
             text: "Minds, brains, and programs",
             link: "https://home.csulb.edu/~cwallis/382/readings/482/searle.minds.brains.programs.bbs.1980.pdf"
@@ -52,7 +52,7 @@ const timelineData = [
         year: 2002,
         author: "Ben Goertzel & Shane Legg",
         term: "AGI",
-        quote: "What is meant by <strong>AGI</strong> is, loosely speaking, AI systems that possess a reasonable degree of self-understanding and autonomous self-control, and have the ability to solve a variety of complex problems in a variety of contexts, and to learn to solve new problems that they didn't know about at the time of their creation. A marked distinction exists between practical AGI work and, on the other hand:<br><br>• Pragmatic but specialized <strong>\"narrow AI\"</strong> research which is aimed at creating programs carrying out specific tasks like playing chess, diagnosing diseases, driving cars and so forth (most contemporary AI work falls into this category.)<br>• Purely theoretical AI research, which is aimed at clarifying issues regarding the nature of intelligence and cognition, but doesn't involve technical details regarding actually realizing artificially intelligent software.",        
+        quote: "What is meant by <strong>AGI</strong> is, loosely speaking, AI systems that possess a reasonable degree of self-understanding and autonomous self-control, and have the ability to solve a variety of complex problems in a variety of contexts, and to learn to solve new problems that they didn't know about at the time of their creation. A marked distinction exists between practical AGI work and, on the other hand:<br><br>• Pragmatic but specialized \"narrow AI\" research which is aimed at creating programs carrying out specific tasks like playing chess, diagnosing diseases, driving cars and so forth (most contemporary AI work falls into this category.)<br>• Purely theoretical AI research, which is aimed at clarifying issues regarding the nature of intelligence and cognition, but doesn't involve technical details regarding actually realizing artificially intelligent software.",        
         source: {
             text: "Goertzel's book (pub. 2005) needed a title. He didn't like \"strong AI,\" and Shane came up with \"AGI.\"",
             link: "https://goertzel.org/who-coined-the-term-agi"
@@ -76,7 +76,7 @@ const timelineData = [
         year: 2005,
         author: "Nils Nilsson",
         term: "human-level intelligence",
-        quote: "Machines exhibiting true human-level intelligence should be able to do many of the things humans are able to do. Among these activities are the tasks or \"jobs\" at which people are employed. I suggest we replace the Turing test by something I will call the \"employment test.\" To pass the employment test, AI programs must be able to perform the jobs ordinarily performed by humans. Progress toward human-level AI could then be measured by the fraction of these jobs that can be acceptably performed by machines. Rather than work toward this goal of automation by building special-purpose systems, I argue for the development of general-purpose, educable systems that can learn and be taught to perform any of the thousands of jobs that humans can perform.",
+        quote: "Machines exhibiting true <strong>human-level intelligence</strong> should be able to do many of the things humans are able to do. Among these activities are the tasks or \"jobs\" at which people are employed. I suggest we replace the Turing test by something I will call the \"employment test.\" To pass the employment test, AI programs must be able to perform the jobs ordinarily performed by humans. Progress toward human-level AI could then be measured by the fraction of these jobs that can be acceptably performed by machines. Rather than work toward this goal of automation by building special-purpose systems, I argue for the development of general-purpose, educable systems that can learn and be taught to perform any of the thousands of jobs that humans can perform.",
         source: {
             text: "Human-Level Artificial Intelligence? Be Serious!",
             link: "https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/General%20Essays/AIMag26-04-HLAI.pdf"
@@ -87,8 +87,8 @@ const timelineData = [
     {
         year: 2007,
         author: "Shane Legg & Mark Hutter",
-        term: "Universal intelligence",
-        quote: `"Intelligence measures an agent's ability to achieve goals in a wide range of environments." <br><br>The universal intelligence of agent π:`,
+        term: "universal intelligence",
+        quote: `"<strong>Intelligence</strong> measures an agent's ability to achieve goals in a wide range of environments." <br><br>The <strong>universal intelligence</strong> of agent π:`,
         image: {
             url: "images/legg_hutter_formula.png",
             alt: "Universal intelligence formula: Upsilon(pi) := sum over mu in E of 2^(-K(mu))V_mu^pi",
@@ -104,7 +104,7 @@ const timelineData = [
     {
         year: 2011,
         author: "Nick Bostrom & Eliezer Yudkowsky",
-        term: "Artificial General Intelligence",
+        term: "AGI",
         quote: "<strong>\"Artificial General Intelligence\"</strong> (hereafter, AGI) is the emerging term of art used to denote \"real\" AI (see, e.g., the edited volume Goertzel and Pennachin 2006). As the name implies, the emerging consensus is that the missing characteristic is generality. Current AI algorithms with human‐equivalent or ‐superior performance are characterized by a deliberately‐programmed competence only in a single, restricted domain… It is a qualitatively different class of problem to handle an AGI operating across many novel contexts that cannot be predicted in advance.",
         source: {
             text: "The Ethics of Artificial Intelligence",
@@ -128,7 +128,7 @@ const timelineData = [
     {
         year: 2014,
         author: "Nick Bostrom",
-        term: "Superintelligence",
+        term: "superintelligence",
         quote: "<strong>Superintelligence</strong> is defined as \"any intellect that greatly exceeds the cognitive performance of humans in virtually all domains of interest.\"",
         source: {
             text: "From Superintelligence book",
@@ -152,7 +152,7 @@ const timelineData = [
     {
         year: 2016,
         author: "Katja Grace et al. (FHI)",
-        term: "High-level machine intelligence",
+        term: "high-level machine intelligence",
         quote: "<strong>\"High-level machine intelligence\"</strong> (HLMI) is achieved when unaided machines can accomplish every task better and more cheaply than human workers.",
         source: {
             text: "Regular survey of AI experts on views on AGI, first in 2016",
@@ -188,7 +188,7 @@ const timelineData = [
     {
         year: 2022,
         author: "Yann LeCun (Meta)",
-        term: "AGI and human-level AI",
+        term: "human-level AI",
         quote: "I think the phrase AGI should be retired and replaced by \"<strong>human-level AI</strong>\". There is no such thing as <strong>AGI</strong>. Even human intelligence is very specialized. We do not realize that human intelligence is specialized because all the intelligent tasks we can think of are task that we can apprehend. But that is a tiny subset of all tasks. The overwhelming majority of tasks are completely out of reach of un-augmented human intelligence.",
         source: {
             text: "LinkedIn post",
@@ -229,8 +229,8 @@ const timelineData = [
     {
         year: 2024,
         author: "OpenAI",
-        term: "Levels of AGI",
-        quote: "OpenAI has internally defined five \"levels\" of AGI",
+        term: "Stages of AGI",
+        quote: "OpenAI has internally defined five \"stages\" of AGI",
         image: {
             url: "images/openai_agi_levels.png",
             alt: "OpenAI's five levels of AGI: Level 1 (Chatbots), Level 2 (Reasoners), Level 3 (Agents), Level 4 (Innovators), Level 5 (Organizations)",

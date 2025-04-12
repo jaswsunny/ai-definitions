@@ -35,11 +35,38 @@ body {
     width: 100%;
 }
 
+.page-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    position: relative;
+}
+
 .sidebar {
     position: fixed;
     width: 280px;
     left: calc(50% + 400px + 2rem);
-    top: calc(2rem + 3rem + 3rem + 3rem); /* 2rem (container padding) + 3rem (header margin) + 3rem (introduction margin) + 3rem (feedback margin) */
+    top: 6.5rem; /* Adjusted higher to align with first line of introduction */
+}
+
+/* Add some responsive adjustments */
+@media (max-height: 800px) {
+    .sidebar {
+        position: absolute;
+    }
+}
+
+@media (max-width: 1200px) {
+    .page-layout {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        position: static;
+        width: 100%;
+        margin-top: 2rem;
+    }
 }
 
 header {
