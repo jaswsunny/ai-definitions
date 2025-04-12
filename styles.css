@@ -29,19 +29,16 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
-    display: flex;
-    justify-content: space-between;
 }
 
 .main-content {
-    width: 800px;
-    margin-right: 320px; /* Space for sidebar */
+    width: 100%;
 }
 
 .sidebar {
     position: fixed;
     width: 280px;
-    right: calc((100% - 1120px) / 2); /* 1120px = 800px (main content) + 320px (gap + sidebar) */
+    left: calc(50% + 400px + 2rem);
     top: calc(2rem + 3rem + 3rem + 3rem); /* 2rem (container padding) + 3rem (header margin) + 3rem (introduction margin) + 3rem (feedback margin) */
 }
 
@@ -287,21 +284,4 @@ a:hover {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
-}
-
-@media (max-width: 1120px) {
-    .container {
-        flex-direction: column;
-    }
-    
-    .main-content {
-        width: 100%;
-        margin-right: 0;
-    }
-    
-    .sidebar {
-        position: static;
-        width: 100%;
-        margin-top: 2rem;
-    }
 } 
