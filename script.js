@@ -176,7 +176,7 @@ const timelineData = [
     {
         year: 2019,
         author: "Francois Chollet",
-        term: "intelligence",
+        term: "general intelligence",
         quote: "The <strong>intelligence</strong> of a system is a measure of its skill-acquisition efficiency over a scope of tasks, with respect to priors, experience, and generalization difficulty. <strong>\"General intelligence\"</strong> is not a binary property which a system either possesses or lacks. It is a spectrum, tied to 1) a scope of application, which may be more or less broad, and 2) the degree of efficiency with which the system translate its priors and experience into new skills over the scope considered, 3) the degree of generalization difficulty represented by different points in the scope considered. It is conceptually unsound to set \"artificial general intelligence\" in an absolute sense (i.e. \"universal intelligence\") as a goal. The consensus definition of AGI, \"a system that can automate the majority of economically valuable work,\" while a useful goal, is an incorrect measure of intelligence.",
         source: {
             text: "On the Measure of Intelligence / What is ARC-AGI?",
