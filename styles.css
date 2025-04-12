@@ -47,7 +47,7 @@ body {
     position: fixed;
     width: 280px;
     left: calc(50% + 400px + 2rem);
-    top: 6.5rem; /* Adjusted higher to align with first line of introduction */
+    top: calc(2rem + 3.5rem); /* container padding + header height + byline */
 }
 
 /* Add some responsive adjustments */

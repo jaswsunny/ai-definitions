@@ -151,7 +151,7 @@ const timelineData = [
     },
     {
         year: 2016,
-        author: "Katja Grace et al. (FHI)",
+        author: "Katja Grace et al.",
         term: "high-level machine intelligence",
         quote: "<strong>\"High-level machine intelligence\"</strong> (HLMI) is achieved when unaided machines can accomplish every task better and more cheaply than human workers.",
         source: {
@@ -187,7 +187,7 @@ const timelineData = [
     },
     {
         year: 2022,
-        author: "Yann LeCun (Meta)",
+        author: "Yann LeCun",
         term: "human-level AI",
         quote: "I think the phrase AGI should be retired and replaced by \"<strong>human-level AI</strong>\". There is no such thing as <strong>AGI</strong>. Even human intelligence is very specialized. We do not realize that human intelligence is specialized because all the intelligent tasks we can think of are task that we can apprehend. But that is a tiny subset of all tasks. The overwhelming majority of tasks are completely out of reach of un-augmented human intelligence.",
         source: {
