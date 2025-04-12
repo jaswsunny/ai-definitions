@@ -29,6 +29,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 .main-content {
@@ -66,6 +67,36 @@ body {
         position: static;
         width: 100%;
         margin-top: 2rem;
+        left: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .introduction {
+        margin-bottom: 2rem;
+    }
+
+    .introduction blockquote {
+        margin: 1.5rem 0;
+        padding-left: 1rem;
+    }
+
+    .timeline::before {
+        left: 0;
     }
 }
 
@@ -311,4 +342,56 @@ a:hover {
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+}
+
+/* Add mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .entry-header {
+        grid-template-columns: 4rem 1fr;
+        gap: 1rem;
+    }
+
+    .entry-term {
+        grid-column: 1 / -1; /* Make term take full width on mobile */
+        margin-top: 0.5rem;
+    }
+
+    .timeline {
+        padding-left: 1rem;
+    }
+
+    .timeline-entry::before {
+        left: -1rem;
+    }
+
+    /* Adjust font sizes for mobile */
+    .entry-year {
+        font-size: 0.9rem;
+    }
+
+    .entry-author {
+        font-size: 1.1rem;
+    }
+
+    .entry-term {
+        font-size: 1rem;
+    }
+
+    /* Ensure content doesn't overflow */
+    .entry-quote, 
+    .entry-source, 
+    .entry-context {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    /* Adjust image sizes for mobile */
+    .entry-image img {
+        max-width: 100%;
+        height: auto;
+    }
 } 
